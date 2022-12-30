@@ -29,6 +29,7 @@ Automation:
 Alternatives considered:
 + CBSD / ClonOS - Not moving fast enough for me
 + bhyve-webadmin - lacks major features / not open source
++ vm-bhyve - will probably reverse some of its functionalities and reuse them
 
 All PHP and not Python?
 + Less code/dependencies to maintain
