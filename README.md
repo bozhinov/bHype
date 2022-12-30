@@ -12,7 +12,8 @@ Automation:
 + Have a way to schedule and manage ZFS snapshots (cron ?)
 + Have a way to backup virtual machines (rsync)
 + Have a way to move virtual machines to another host (rsync)
-+ Have a way to monitor performance (PHP)
++ Have a way to monitor virtual machines performance
++ Have a way to monitor over all host resource utilization 
 + Have a temporary (in-memory) and a persistent database (MariaDb)
 + Have a per user task queue with an API interface (PHP)
 + Have a way to start/stop FreeBSD services (ssh, rsync)
@@ -25,7 +26,7 @@ Alternatives considered:
 + CBSD - Not moving fast enough for me
 + bhyve-webadmin - lacks major features / not open source
 
-PHP and not Python ?
+All PHP and not Python?
 + Less code/dependencies to maintain
 
 Target user groups:
