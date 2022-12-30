@@ -21,6 +21,7 @@ Automation:
 + Have a per user task queue with an API interface (PHP)
 + Have a way to start/stop FreeBSD services (ssh, rsync)
 + Popup notifications in case of pkg audit vulnerabilities discovered
++ Popup notifications in case of OS patches available
 + Have a way to update OS and packages 
   (save state of all virtual machines, shutdown all non essential services, update, reboot host)
 + SNMP alerts
