@@ -10,7 +10,7 @@ Automation:
 + Have a web interface for virtual machine management (Apache + PHP)
 + Have OS templates
 + Include noVNC (regardless of being MPL 2.0)
-+ Use FreeBSD local users across all functionality
++ Use FreeBSD local users across all functionalities
 + Have a way to initialize ZFS storages
 + Have a way to schedule and manage ZFS snapshots (cron ?)
 + Have a way to backup virtual machines / including to a Windows host (rsync)
@@ -21,11 +21,11 @@ Automation:
 + Have a temporary (in-memory) and a persistent database (MariaDb)
 + Have a per user task queue with an API interface (PHP)
 + Have a way to start/stop FreeBSD services (ssh, rsync)
-+ Popup notifications in case of pkg audit vulnerabilities discovered
-+ Popup notifications in case of OS patches available
-+ Have a way to update OS and packages 
++ Popup notifications in case of pkg audit vulnerabilities discovered (cron)
++ Popup notifications in case of OS patches available (cron)
++ Have a process to update OS and packages 
   (save state of all virtual machines, shutdown all non essential services, update, reboot host)
-+ SNMP alerts
++ SNMP alerts (if there is time)
 
 Alternatives considered:
 + CBSD / ClonOS - Not moving fast enough for me
