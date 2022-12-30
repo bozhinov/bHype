@@ -9,6 +9,7 @@ Platform:
 Automation:
 + Have a web interface for virtual machine management (Apache + PHP)
 + Have OS templates
++ Include noVNC (regardless of being MPL 2.0)
 + Use FreeBSD local users across all functionality
 + Have a way to initialize ZFS storages
 + Have a way to schedule and manage ZFS snapshots (cron ?)
