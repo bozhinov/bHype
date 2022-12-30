@@ -14,6 +14,7 @@ Automation:
 + Have a way to schedule and manage ZFS snapshots (cron ?)
 + Have a way to backup virtual machines (rsync)
 + Have a way to move virtual machines to another host (rsync)
++ Have a way to clone a virtual machine (???)
 + Have a way to monitor/record virtual machines performance (native tools)
 + Have a way to monitor over all host resource utilization 
 + Have a temporary (in-memory) and a persistent database (MariaDb)
@@ -24,7 +25,7 @@ Automation:
   (save state of all virtual machines, shutdown all non essential services, update, reboot host)
 
 Alternatives considered:
-+ CBSD - Not moving fast enough for me
++ CBSD / ClonOS - Not moving fast enough for me
 + bhyve-webadmin - lacks major features / not open source
 
 All PHP and not Python?
