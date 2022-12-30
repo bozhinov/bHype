@@ -1,5 +1,5 @@
 # bHyve-AIO
-bHyve All-in-One will (eventually) turn a fresh installation of FreeBSD 13+ into a standalone hypervisor that can be maintained within a corporate environment.
+bHyve All-in-One will (eventually) turn a fresh installation of FreeBSD 13+ into a standalone virtual machine host that can be maintained within a corporate environment.
 
 Platform: 
 + FreeBSD 13 and onwards
@@ -38,6 +38,12 @@ All PHP and not Python?
 Target user groups:
 + DevOps running DevTest environments
 + No noobs
+
+Will it be ever suitable for production ?
++ Don't think so. 
+1) Troubleshooting and maintenance - The platform is not popular amongst IT personnel
+2) Maturity - The code has been around for a while but does not seem to be thoroughly tested.
+3) Lacks features like live migration, video acceleration, direct guest communication
 
 Am I missing something ?
 + Let me know - have an issue opened
