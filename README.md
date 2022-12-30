@@ -12,7 +12,7 @@ Automation:
 + Use FreeBSD local users across all functionality
 + Have a way to initialize ZFS storages
 + Have a way to schedule and manage ZFS snapshots (cron ?)
-+ Have a way to backup virtual machines (rsync)
++ Have a way to backup virtual machines / including to a Windows host (rsync)
 + Have a way to move virtual machines to another host (rsync)
 + Have a way to clone a virtual machine (???)
 + Have a way to monitor/record virtual machines performance (native tools)
@@ -23,6 +23,7 @@ Automation:
 + Popup notifications in case of pkg audit vulnerabilities discovered
 + Have a way to update OS and packages 
   (save state of all virtual machines, shutdown all non essential services, update, reboot host)
++ SNMP alerts
 
 Alternatives considered:
 + CBSD / ClonOS - Not moving fast enough for me
