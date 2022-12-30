@@ -15,6 +15,9 @@ Automation:
 + Have a way to monitor performance (PHP)
 + Have a temporary (in-memory) and a persistent database (MariaDb)
 + Have a per user task queue with an API interface (PHP)
++ Have a way to start/stop FreeBSD services (ssh, rsync)
++ Have a way to update OS and packages 
+  (save state of all virtual machines, shutdown all non essential services, update, reboot host)
 + Have OS templates
 + Use FreeBSD local users across all functionality
 
