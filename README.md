@@ -26,6 +26,8 @@ Automation:
 + Have a process to update OS and packages 
   (save state of all virtual machines, shutdown all non essential services, update, reboot host)
 + SNMP alerts (if there is time)
++ Have jail templates (ClonOS inspired)
++ Be able to run post-jail-deployment scripts (turn into a container)
 
 Alternatives considered:
 + CBSD / ClonOS - Not moving fast enough for me
