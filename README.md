@@ -1,8 +1,8 @@
 # bHype
-# bHype should (eventually) turn a fresh installation of FreeBSD 13+ into a standalone virtual machine host that can be maintained within a corporate environment.
+bHype should (eventually) turn a fresh installation of FreeBSD 13.1+ (or maybe even 14) into a standalone virtual machine host that can be maintained within a corporate environment.
 
 Platform: 
-+ FreeBSD 13 and onwards
++ FreeBSD 13.1 and onwards
 + ZFS
 + bHyve
 
