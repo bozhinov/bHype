@@ -16,6 +16,7 @@ Automation:
 + Have a way to backup virtual machines / including to a Windows host (rsync)
 + Have a way to move virtual machines to another host (rsync)
 + Have a way to clone a virtual machine (iohyve)
++ Have a way to start VM upon host boot
 + Have a way to monitor/record virtual machines performance (native tools)
 + Have a way to monitor over all host resource utilization 
 + Have a temporary (in-memory) and a persistent database (MariaDb)
