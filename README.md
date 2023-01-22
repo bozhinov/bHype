@@ -28,6 +28,7 @@ Automation:
 + SNMP alerts (if there is time)
 + Have jail templates (ClonOS inspired)
 + Be able to run post-jail-deployment scripts (turn into a container)
++ a.k.a Pot (EuroBSDcon 2022 inspired)
 
 Alternatives considered:
 + CBSD / ClonOS - Not moving fast enough for me
