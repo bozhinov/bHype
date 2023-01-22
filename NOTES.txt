@@ -1,0 +1,5 @@
+Using VirtFS for sharing files between host and guess:
+https://wiki.freebsd.org/VirtFS
+https://forums.freebsd.org/threads/status-of-virtfs.75826/
+https://github.com/virtio-win/kvm-guest-drivers-windows/wiki/VirtIO-FS:-Shared-file-system
+
