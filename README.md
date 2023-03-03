@@ -48,7 +48,7 @@ Will it be ever suitable for production ?
 + Don't think so. 
 1) Troubleshooting and maintenance - The platform is not popular amongst IT personnel
 2) Maturity - The code has been around for a while but does not seem to be thoroughly tested.
-3) Lacks features like live migration, video acceleration, direct guest communication
+3) Lacks features like live migration (??), video acceleration(??), direct guest communication (13.2 ??)
 
 Am I missing something ?
 + Let me know - have an issue opened
