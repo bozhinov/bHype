@@ -17,6 +17,9 @@ Automation:
 + Have a way to re-register virtual machines with another host
 + Have a way to clone a virtual machine
 + Have a way to start VM upon host boot (persistent VMs)
++ Add an option for VirtIO shares
++ Have Bridged (Public), NAT-ed and Private types of network switches predefined
++ Have a DHCP service (dhcp-php preferably and dnsmasq optionally)
 + Have a service to monitor/record virtual machines performance (native tools)
 + Have a service to monitor over all host resource utilization 
 + Have a temporary (in-memory) and a persistent database (MariaDb)
