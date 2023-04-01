@@ -1,8 +1,8 @@
 # bHype
-bHype should (eventually) turn a fresh installation of FreeBSD 13.1+ (or maybe even 14) into a standalone virtual machine host that can be maintained within a corporate environment.
+bHype should (eventually) turn a fresh installation of FreeBSD 13.2 (or maybe even 14) into a standalone virtual machine host that can be maintained within a corporate environment.
 
 Platform: 
-+ FreeBSD 13.1 and onwards
++ FreeBSD 13.2 and onwards
 + ZFS
 + bHyve
 
@@ -22,14 +22,17 @@ Automation:
 + Have a temporary (in-memory) and a persistent database (MariaDb)
 + Have a per user task queue with an API interface (PHP)
 + Have a way to start/stop FreeBSD services (ssh, rsync)
++ Have jail templates (ClonOS inspired)
++ Be able to run post-jail-deployment scripts (turn into a container)
++ a.k.a Pot (EuroBSDcon 2022 inspired)
+
+Security:
 + Popup notifications in case of pkg audit vulnerabilities discovered (cron)
 + Popup notifications in case of OS patches available (cron)
 + Have a process to update OS and packages 
   (save state of all virtual machines, shutdown all non essential services, update, reboot host)
 + SNMP alerts (if there is time)
-+ Have jail templates (ClonOS inspired)
-+ Be able to run post-jail-deployment scripts (turn into a container)
-+ a.k.a Pot (EuroBSDcon 2022 inspired)
++ Make sure OSSEC works in the final distribution.
 
 Alternatives considered:
 + CBSD / ClonOS - Not moving fast enough for me
@@ -48,7 +51,7 @@ Will it be ever suitable for production ?
 + Don't think so. 
 1) Troubleshooting and maintenance - The platform is not popular amongst IT personnel
 2) Maturity - The code has been around for a while but does not seem to be thoroughly tested.
-3) Lacks features like live migration (??), video acceleration(??), direct guest communication (13.2 ??)
+3) Lacks features like live migration (??), video acceleration(14 ??), direct guest communication (??)
 
 Am I missing something ?
 + Let me know - have an issue opened
