@@ -14,11 +14,11 @@ Automation:
 + Have a way to initialize ZFS storages
 + Have a way to schedule and manage ZFS snapshots (cron ?)
 + Have a way to backup virtual machines / including to a Windows host (rsync)
-+ Have a way to move virtual machines to another host (rsync)
-+ Have a way to clone a virtual machine (iohyve)
-+ Have a way to start VM upon host boot
-+ Have a way to monitor/record virtual machines performance (native tools)
-+ Have a way to monitor over all host resource utilization 
++ Have a way to re-register virtual machines with another host
++ Have a way to clone a virtual machine
++ Have a way to start VM upon host boot (persistent VMs)
++ Have a service to monitor/record virtual machines performance (native tools)
++ Have a service to monitor over all host resource utilization 
 + Have a temporary (in-memory) and a persistent database (MariaDb)
 + Have a per user task queue with an API interface (PHP)
 + Have a way to start/stop FreeBSD services (ssh, rsync)
@@ -51,7 +51,7 @@ Will it be ever suitable for production ?
 + Don't think so. 
 1) Troubleshooting and maintenance - The platform is not popular amongst IT personnel
 2) Maturity - The code has been around for a while but does not seem to be thoroughly tested.
-3) Lacks features like live migration (??), video acceleration(14 ??), direct guest communication (??)
+3) Lacks features like live migration (??) and video acceleration(14 ??)
 
 Am I missing something ?
 + Let me know - have an issue opened
