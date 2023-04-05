@@ -11,7 +11,7 @@ Automation:
 + Have OS templates
 + Include noVNC (regardless of being MPL 2.0)
 + Use FreeBSD local users across all functionalities
-	(Add domain mapping feature for integration with IdP)
++ Add domain mapping feature for integration with IdP
 + Have a way to initialize ZFS storages
 + Have a way to schedule and manage ZFS snapshots (cron ?)
 + Have a way to backup virtual machines / including to a Windows host (rsync)
