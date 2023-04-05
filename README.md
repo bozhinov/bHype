@@ -37,7 +37,7 @@ Hardware:
 
 - GPU: (TBD)
 	- Intel GVT-d reportedly works but supported on CPU gens 5 to 10 only
-	- All Intel, AMD and Nvidia adapters passthrough work (reportedly)
+	- Passthrough works on all Intel, AMD and Nvidia adapters (reportedly)
 	- No weird shit like "eGPU connected through a Thunderbolt port"
 
 - Network: FreeBSD offers LAGG and I advise you use it if you have multiple NICs
