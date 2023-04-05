@@ -54,10 +54,15 @@ Hardware:
 Security:
 + Popup notifications in case of pkg audit vulnerabilities discovered (cron)
 + Popup notifications in case of OS patches available (cron)
-+ Have a process to update OS and packages 
++ Have a process to update OS and packages (poudriere)
   (save state of all virtual machines, shutdown all non essential services, update, reboot host)
 + SNMP alerts (if there is time)
 + Make sure OSSEC works in the final distribution.
+
+Build system:
++ Seems everyone went for poudriere
++ I like pfsense's one for now
++ NanoBSD was worth a shot but I would still need poudriere for the packages
 
 Alternatives considered:
 + CBSD / ClonOS - Not moving fast enough for me
