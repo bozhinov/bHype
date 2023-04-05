@@ -30,9 +30,8 @@ Automation:
 + a.k.a Pot (EuroBSDcon 2022 inspired)
 
 Hardware:
-- CPU: AMD Zen based (2019+) orvCPU: Intel with EPT & VT-x (2011+)
-
-- Notes
+- CPU: AMD Zen based (2019+) or Intel with EPT & VT-x (2011+)
+	- Notes
 	- AMD RVI CPUs are supported by bHyve
 	- AMD-Vi and Intel VT-d for the passthrough if you know what's good for you
 	- Intel VT-c does not seem to be supported by bHyve
@@ -43,8 +42,8 @@ Hardware:
 	- All Intel, AMD and Nvidia adapters passthrough work (reportedly)
 	- No weird shit like "eGPU connected through a Thunderbolt port"
 
-- NIC: FreeBSD offers LAGG and I advise you use it if you have multiple NICs
-- STORAGE: The more the merrier
+- Network: FreeBSD offers LAGG and I advise you use it if you have multiple NICs
+- Storage: The more the merrier
 
 Security:
 + Popup notifications in case of pkg audit vulnerabilities discovered (cron)
